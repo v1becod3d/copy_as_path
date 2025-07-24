@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\CopyAsPath]
+"Icon"="imageres.dll,-5302"
+@="Copy as path"
+
+[HKEY_CLASSES_ROOT\*\shell\CopyAsPath\command]
+@="cmd /c echo | set /p=\"%1\" | clip"
+
+[HKEY_CLASSES_ROOT\Directory\shell\CopyAsPath]
+"Icon"="imageres.dll,-5302"
+@="Copy as pat"
+
+[HKEY_CLASSES_ROOT\Directory\shell\CopyAsPath\command]
+@="cmd /c echo | set /p=\"%1\" | clip"
